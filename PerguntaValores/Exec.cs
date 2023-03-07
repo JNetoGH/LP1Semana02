@@ -4,11 +4,16 @@ namespace PerguntaValores {
 
     class Cylinder {
         
+        // CONSTANTS AND VARIABLES
         private const double Pi = 3.1415926;
         private double _height = 0;
         private double _ray = 0;
-        private double Volume => Pi * Math.Pow(_ray, 2) * _height; //π * pow(r) * h
-        private double SurfaceArea => 2 * Pi * _ray * (_ray + _height); // 2πr(r + h) 
+       
+        // PROPERTIES
+        /// <summary> Cylinder volume formula: π * pow(r) * h </summary>
+        private double Volume => Pi * Math.Pow(_ray, 2) * _height; 
+        /// <summary> Cylinder Surface Area formula: 2πr(r + h) </summary> 
+        private double SurfaceArea => 2 * Pi * _ray * (_ray + _height); 
         
         public Cylinder(double height, double ray) {
             this._height = height;
