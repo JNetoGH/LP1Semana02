@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulaVar", "ManipulaVar\ManipulaVar.csproj", "{43D76DFD-0AD9-4DC0-866D-238C92277F2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerguntaValores", "PerguntaValores\PerguntaValores.csproj", "{7ED165F8-0D1F-431D-AC03-69AF2A706A67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{43D76DFD-0AD9-4DC0-866D-238C92277F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D76DFD-0AD9-4DC0-866D-238C92277F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D76DFD-0AD9-4DC0-866D-238C92277F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED165F8-0D1F-431D-AC03-69AF2A706A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED165F8-0D1F-431D-AC03-69AF2A706A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED165F8-0D1F-431D-AC03-69AF2A706A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED165F8-0D1F-431D-AC03-69AF2A706A67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
