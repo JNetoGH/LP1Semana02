@@ -18,13 +18,14 @@ namespace Specials {
             
             PrintCyanText("EX 7 (Overflow Integers)");
             Int32 signed32BitsInteger = Int32.MaxValue;
-            Console.WriteLine($"{(Int32) signed32BitsInteger + 1}\n");
+            Console.WriteLine($"32 bits integer: {(Int32) signed32BitsInteger + 1}\n");
 
             PrintCyanText("EX 7 (Overflow Floating Point)");
             Single decimal32Bits = Single.MaxValue * 123;
             Double decimal64Bits = (Double) Decimal.MaxValue + 2;
             Console.WriteLine($"32 bits: {decimal32Bits}");
             Console.WriteLine($"64 bits: {decimal64Bits}");
+            
 
         }
     }
