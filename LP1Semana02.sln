@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerguntaValores", "Pergunta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specials", "Specials\Specials.csproj", "{612E4CD0-9F71-4407-B270-1190D65CBF51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GranpaPatternSwitch", "GranpaPatternSwitch\GranpaPatternSwitch.csproj", "{5ED614FA-EDE1-490D-8246-F607C23908B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{612E4CD0-9F71-4407-B270-1190D65CBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612E4CD0-9F71-4407-B270-1190D65CBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612E4CD0-9F71-4407-B270-1190D65CBF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED614FA-EDE1-490D-8246-F607C23908B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED614FA-EDE1-490D-8246-F607C23908B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED614FA-EDE1-490D-8246-F607C23908B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED614FA-EDE1-490D-8246-F607C23908B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -12,8 +12,8 @@ namespace ManipulaVar {
                 int copy2 = value;
                 copy1++;
                 --copy2;
-                Console.WriteLine($"x++: {copy1}");
-                Console.WriteLine($"--x: {copy2}");
+                Console.WriteLine($"copy1++: {copy1}");
+                Console.WriteLine($"--copy2: {copy2}");
             }
             catch (FormatException e) {
                 Console.WriteLine("args[0] is not a valid integer number");
