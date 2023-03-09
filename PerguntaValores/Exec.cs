@@ -6,22 +6,22 @@ namespace PerguntaValores {
         
         // AND VARIABLES
         private double _height = 0;
-        private double _ray = 0;
+        private double _radius = 0;
        
         // PROPERTIES
         /// <summary> Cylinder volume formula: π * pow(r) * h </summary>
-        private double Volume => Math.PI * Math.Pow(_ray, 2) * _height; 
+        private double Volume => Math.PI * Math.Pow(_radius, 2) * _height; 
         /// <summary> Cylinder Surface Area formula: 2πr(r + h) </summary> 
-        private double SurfaceArea => 2 * Math.PI * _ray * (_ray + _height); 
+        private double SurfaceArea => 2 * Math.PI * _radius * (_radius + _height); 
         
-        public Cylinder(double height, double ray) {
+        public Cylinder(double height, double radius) {
             this._height = height;
-            this._ray = ray;
+            this._radius = radius;
         }
         
         public override string ToString() {
             return $"height: {_height} \n" +
-                   $"ray: {_ray} \n" +
+                   $"radius: {_radius} \n" +
                    $"volume: {Volume} \n" +
                    $"surface area: {SurfaceArea}";
         }
@@ -32,7 +32,7 @@ namespace PerguntaValores {
             
             Console.Write("\ninsert height: ");
             double height = double.Parse(Console.ReadLine());
-            Console.Write("insert ray: ");
+            Console.Write("insert radius: ");
             double ray = double.Parse(Console.ReadLine());
 
             Cylinder cylinder = new Cylinder(height, ray);
